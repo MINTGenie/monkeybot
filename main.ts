@@ -3,9 +3,9 @@ let lhand_pos = 70
 let rhand_pos = 50
 SuperBit.MotorRunDual(
 SuperBit.enMotors.M1,
-40,
+-150,
 SuperBit.enMotors.M3,
-40
+-150
 )
 basic.forever(function () {
     for (let index = 0; index < 12; index++) {
